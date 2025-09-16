@@ -11,7 +11,7 @@ const HeroPic = () => {
       whileInView="show"
       viewport={{once:false, amount:0}}
       className='h-full flex items-center justify-center'> 
-        <img src="{`${process.env.PUBLIC_URL}/images/logo_main.png" 
+        <img src="/images/logo_main.png" 
             alt="Rohit Dahiya" 
             className='max-h-[500px] w-auto'
         />
